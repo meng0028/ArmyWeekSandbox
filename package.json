@@ -1,32 +1,64 @@
 {
-  "name": "j16i7s",
-  "version": "0.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
-  "main": "src/index.js",
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "4.0.0"
+    "@babel/core": "^7.12.3",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fullcalendar/daygrid": "^5.11.2",
+    "@fullcalendar/interaction": "^5.11.2",
+    "@fullcalendar/list": "^5.11.2",
+    "@fullcalendar/react": "^5.11.2",
+    "@fullcalendar/timegrid": "^5.11.2",
+    "@iconify/react": "^3.2.2",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "description": "",
+    "gatsby": "^4.20.0",
+    "gatsby-plugin-image": "^2.21.0",
+    "gatsby-plugin-manifest": "^4.20.0",
+    "gatsby-plugin-sharp": "^4.20.0",
+    "gatsby-source-filesystem": "^4.20.0",
+    "gatsby-transformer-sharp": "^4.20.0",
+    "html5-qrcode": "^2.2.1",
+    "main": "index.html",
+    "name": "qr-code-scanner",
+    "prop-types": "^15.8.1",
+    "qrscan": "^1.0.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-faq-component": "^1.3.4",
+    "react-icons": "^4.4.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-router-dom": "^6.3.0",
+    "stream": "^0.0.2",
+    "stream-consumers": "^1.0.2",
+    "version": "1.0.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0",
-    "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
+    "prettier": "^2.7.1"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
